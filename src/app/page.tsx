@@ -1,5 +1,13 @@
+import AboutMe from "@/components/About/AboutMe";
+import HeroSection from "@/components/About/HeroSection";
+
 const page = () => {
-  return <div>Enter</div>;
+  return (
+    <>
+      <HeroSection />
+      <AboutMe />
+    </>
+  );
 };
 
 export default page;

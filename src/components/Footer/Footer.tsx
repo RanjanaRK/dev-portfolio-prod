@@ -1,9 +1,9 @@
 import { Separator } from "@radix-ui/react-separator";
 import {
-  TooltipProvider,
   Tooltip,
-  TooltipTrigger,
   TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
 } from "@radix-ui/react-tooltip";
 import Link from "next/link";
 

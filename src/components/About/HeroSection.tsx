@@ -1,13 +1,7 @@
+import { Download, MoveRight } from "lucide-react";
 import Image from "next/image";
-import { Button } from "../ui/button";
 import Link from "next/link";
-import {
-  ArrowBigRight,
-  Download,
-  Mail,
-  MailMinusIcon,
-  MoveRight,
-} from "lucide-react";
+import { Button } from "../ui/button";
 
 const HeroSection = () => {
   const linkName = [

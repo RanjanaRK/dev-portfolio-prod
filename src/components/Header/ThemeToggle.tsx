@@ -1,6 +1,6 @@
 "use client";
 
-import { MoonStar, Sun, SunDim, SunIcon } from "lucide-react";
+import { MoonStar, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 
 const ThemeToggle = () => {

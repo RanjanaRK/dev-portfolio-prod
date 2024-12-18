@@ -2,6 +2,7 @@
 
 import { AlignJustify } from "lucide-react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import {
   Sheet,
@@ -13,7 +14,6 @@ import {
   SheetTrigger,
 } from "../ui/sheet";
 import ThemeToggle from "./ThemeToggle";
-import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -28,11 +28,11 @@ const Navbar = () => {
   return (
     <>
       <nav className="sticky top-0 z-50 mx-auto flex max-w-screen-xl items-center justify-between border bg-gray-200/15 px-4 py-3 shadow-lg backdrop-blur-sm dark:bg-gray-700/15 sm:rounded-full">
-        <div className="motion-preset-blur-right font-[merriweather] text-3xl font-bold">
+        <div className="motion-preset-blur-down font-[merriweather] text-3xl font-bold">
           Ranjana.
         </div>
 
-        <div className="motion-preset-blur-right hidden gap-3 space-x-4 text-xl text-gray-700 dark:text-gray-400 sm:flex">
+        <div className="motion-preset-blur-down hidden gap-3 space-x-4 text-xl text-gray-700 dark:text-gray-400 sm:flex">
           {menuLinks.map((items) => {
             const isActive = pathname === items.href;
             return (
@@ -46,7 +46,7 @@ const Navbar = () => {
           })}
         </div>
 
-        <div className="motion-preset-blur-right flex items-center gap-2">
+        <div className="motion-preset-blur-down flex items-center gap-2">
           <ThemeToggle />
           <div className="sm:hidden">
             <Sheet

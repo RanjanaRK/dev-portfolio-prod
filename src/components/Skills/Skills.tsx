@@ -173,7 +173,7 @@ const Skills = () => {
       ),
     },
     {
-      id: 2,
+      id: 3,
       name: "Fastify",
       logo: (
         <svg
@@ -186,7 +186,7 @@ const Skills = () => {
       ),
     },
     {
-      id: 3,
+      id: 4,
       name: "Prisma",
       logo: (
         <svg
@@ -199,7 +199,7 @@ const Skills = () => {
       ),
     },
     {
-      id: 4,
+      id: 5,
       name: "PostgreSQL",
       logo: (
         <svg
@@ -212,7 +212,7 @@ const Skills = () => {
       ),
     },
     {
-      id: 5,
+      id: 6,
       name: "Digital Ocean",
       logo: (
         <svg
@@ -225,7 +225,7 @@ const Skills = () => {
       ),
     },
     {
-      id: 6,
+      id: 7,
       name: "appwrite",
       logo: (
         <svg
@@ -238,7 +238,7 @@ const Skills = () => {
       ),
     },
     {
-      id: 7,
+      id: 8,
       name: "Github",
       logo: (
         <svg
@@ -267,16 +267,14 @@ const Skills = () => {
             <div className="h-auto rounded-xl border shadow-lg md:h-80">
               <div className="flex flex-wrap gap-4 rounded-2xl p-4">
                 {frontendSkill.map((items) => (
-                  <>
-                    <div
-                      className="flex items-center gap-1 rounded-full bg-gray-200 px-3 py-1 text-xl dark:bg-gray-800"
-                      key={items.id}>
-                      <div className="h-6 w-6 fill-current text-foreground">
-                        {items.logo}
-                      </div>
-                      <div className="">{items.name}</div>
+                  <div
+                    className="flex items-center gap-1 rounded-full bg-gray-200 px-3 py-1 text-xl dark:bg-gray-800"
+                    key={items.id}>
+                    <div className="h-6 w-6 fill-current text-foreground">
+                      {items.logo}
                     </div>
-                  </>
+                    <div className="">{items.name}</div>
+                  </div>
                 ))}
               </div>
             </div>
@@ -286,16 +284,14 @@ const Skills = () => {
             <div className="h-auto rounded-xl border shadow-lg md:h-80">
               <div className="flex flex-wrap gap-4 rounded-2xl p-4">
                 {backendSkill.map((items) => (
-                  <>
-                    <div
-                      className="flex items-center gap-1 rounded-full bg-gray-200 px-3 py-1 text-xl dark:bg-gray-800"
-                      key={items.id}>
-                      <div className="h-6 w-6 fill-current text-foreground">
-                        {items.logo}
-                      </div>
-                      <div className="">{items.name}</div>
+                  <div
+                    className="flex items-center gap-1 rounded-full bg-gray-200 px-3 py-1 text-xl dark:bg-gray-800"
+                    key={items.id}>
+                    <div className="h-6 w-6 fill-current text-foreground">
+                      {items.logo}
                     </div>
-                  </>
+                    <div className="">{items.name}</div>
+                  </div>
                 ))}
               </div>
             </div>

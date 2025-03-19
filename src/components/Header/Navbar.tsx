@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 mx-auto flex max-w-screen-xl items-center justify-between border bg-gray-200/15 px-4 py-3 shadow-lg backdrop-blur-sm dark:bg-gray-700/15 sm:rounded-full">
+      <nav className="sticky top-0 z-50 mx-auto  flex max-w-screen-xl items-center justify-between border bg-gray-200/15 px-4 py-3 shadow-lg backdrop-blur-sm dark:bg-gray-700/15 sm:rounded-full">
         <div className="motion-preset-blur-down font-[merriweather] text-3xl font-bold">
           Ranjana.
         </div>

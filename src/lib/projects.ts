@@ -1,37 +1,37 @@
 export const projectsData = [
   {
     id: 1,
-    name: "Weather-Forecast",
+    name: "Task Manager",
     description:
-      "Weather-forecast a web aplication, with live location, upcoming forecast.",
+      "Developed Task Manager, a microservice Task management web application to streamline daily task organization.  Implemented User Authentication with secure JWT-based access.  Designed an intuitive task management system with CRUD operation. ",
 
-    respository_link: "https://github.com/RanjanaRK/weather-forecast.git",
+    respository_link: "https://github.com/RanjanaRK/task-manager",
 
-    keywords: ["nextjs", "react", "axios", "tailwindCSS"],
+    keywords: ["nextjs", "tailwindCSS", "Shadcn ui", "directus", "jose"],
   },
   {
     id: 2,
-    name: "Microservice Full-Stack TODO App",
+    name: "Ecom Cart",
     description:
-      "Microservice Full-stack todo web application built with auth, get, post, edit, delete features.",
+      "Developed Ecom Cart, a dynamic and e-commerce web application with multi features. View and purchase products from collection. Easily add, remove, update items in your cart. Sign up and login to user account to access cart items and order.",
 
-    respository_link: "https://github.com/RanjanaRK/Todo-List.git",
+    respository_link: "https://github.com/RanjanaRK/shopping-cart.git",
 
     keywords: [
       "nextjs",
-      "axios",
       "tailwindCSS",
       "directus",
       "typescript",
-      "tanstack ",
-      "nextui",
+      "Shadcn ui",
+      "Stripe",
+      "jose",
     ],
   },
   {
     id: 3,
     name: "Microservice FullStack Book Library",
     description:
-      "This project allows to create author and add book with get post edit delete features",
+      "Microservice FullStack Book libray project allows to create author and add book with get post edit delete features",
 
     respository_link: "https://github.com/RanjanaRK/book-library.git",
 
@@ -46,9 +46,9 @@ export const projectsData = [
   },
   {
     id: 4,
-    name: "Octagram : Microservice Full-stack Social Media",
+    name: "Octagram",
     description:
-      "Octagram ,a Microservice Full-stack Social Media project is created in collaboration with NextJS and Directors. It allows creating, liking, deleting posts and allowing other users to view the posts.",
+      "Octagram, a Microservice Full-stack Social Media project n enabling user to share thoughts, experience with the world. Integrated Post updates, Share photos and videos, comment and like, browse and search people and profile updating features.",
 
     respository_link: "https://github.com/RanjanaRK/weather-forecast.git",
 
@@ -59,14 +59,16 @@ export const projectsData = [
       "typescript",
       "tanstack",
       "nextui",
+      "jotai",
     ],
   },
   {
     id: 5,
-    name: "Book Library",
-    description: "full stack book library bulit with nextJs and fastify ",
+    name: "Portfolio",
+    description:
+      "this portfolio is a reflection of my jouney, feautring projects taht highlight ny creativity, technical expertise.",
 
-    respository_link: "https://github.com/RanjanaRK/weather-forecast.git",
+    respository_link: "https://github.com/RanjanaRK/dev-portfolio-prod.git",
 
     keywords: [
       "nextjs",

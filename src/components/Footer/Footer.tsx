@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
           <Separator />
           <div className="flex flex-col justify-between sm:flex-row">
-            <div className="">&#169;2024. All rights reserved</div>
+            <div className="">&#169;2025. All rights reserved</div>
             <div className="">Created by Ranjana Kumari</div>
           </div>
         </div>
